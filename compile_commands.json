@@ -1,0 +1,20 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-Wno-missing-braces",
+            "-Wno-attributes",
+            "-fPIC",
+            "-g",
+            "-DVERBOSE=1",
+            "-I/home/michaelb/dev",
+            "-o",
+            "build/a_audio.o",
+            "a_audio.c"
+        ],
+        "directory": "/home/michaelb/dev/targa",
+        "file": "a_audio.c"
+    }
+]

@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A_AUDIO_H	a_audio.h	2;"	d
+A_BUFFER_SIZE	a_audio.h	7;"	d
+A_SAMPLE_RATE	a_audio.h	6;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -Wno-missing-braces -Wno-attributes -fPIC$/;"	m
+DEPS	Makefile	/^DEPS =  \\$/;"	m
+INFLAGS	Makefile	/^INFLAGS = -I$(HOME)\/dev$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -L\/opt\/hfs18.0\/dsolib -L$(HOME)\/lib$/;"	m
+LIB	Makefile	/^LIB = $(HOME)\/lib$/;"	m
+LIBNAME	Makefile	/^LIBNAME = targa$/;"	m
+LIBS	Makefile	/^LIBS = -lm $/;"	m
+NAME	Makefile	/^NAME = targa$/;"	m
+O	Makefile	/^O = build$/;"	m
+OBJS	Makefile	/^OBJS =  \\$/;"	m
+Sound	a_audio.h	/^} Sound;$/;"	t	typeref:struct:__anon2
+Wave	a_audio.h	/^} Wave;$/;"	t	typeref:struct:__anon1
+a_CleanUp	a_audio.c	/^void a_CleanUp(void)$/;"	f
+a_Init	a_audio.c	/^void a_Init(void)$/;"	f
+a_PlayBeep	a_audio.c	/^void a_PlayBeep(void)$/;"	f
+a_Stream	a_audio.c	/^PaStream* a_Stream;$/;"	v
+amplitude	a_audio.h	/^    float             amplitude;$/;"	m	struct:__anon2
+buffer	a_audio.h	/^    float buffer[A_BUFFER_SIZE];$/;"	m	struct:__anon1
+duration	a_audio.h	/^    const uint32_t    duration;$/;"	m	struct:__anon2
+frequency	a_audio.h	/^    float             frequency;$/;"	m	struct:__anon2
+initSineWave	a_audio.c	/^static void initSineWave(void)$/;"	f	file:
+phase	a_audio.h	/^    uint32_t          phase;$/;"	m	struct:__anon2
+sineWave	a_audio.c	/^Wave      sineWave;$/;"	v
+soundA	a_audio.c	/^Sound     soundA = {.duration = 2000};$/;"	v
+squareWave	a_audio.c	/^Wave      squareWave;$/;"	v
+ticks	a_audio.h	/^    uint32_t          ticks;$/;"	m	struct:__anon2
+wave	a_audio.h	/^    Wave              wave;$/;"	m	struct:__anon2
+waveFunction	a_audio.c	/^static int waveFunction($/;"	f	file:
